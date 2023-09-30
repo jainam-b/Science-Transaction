@@ -1,0 +1,212 @@
+.ojs {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .ojs .overlap-wrapper {
+    background-color: #ffffff;
+    width: 1440px;
+    height: 3432px;
+  }
+  
+  .ojs .overlap {
+    position: relative;
+    width: 1179px;
+    height: 152px;
+    top: 18px;
+    left: 146px;
+  }
+  
+  .ojs .header {
+    position: absolute;
+    width: 1179px;
+    height: 140px;
+    top: 12px;
+    left: 0;
+    background-color: transparent;
+  }
+  
+  .ojs .main-header {
+    position: absolute;
+    width: 1179px;
+    height: 70px;
+    top: 70px;
+    left: 0;
+  }
+  
+  .ojs .overlap-group {
+    position: relative;
+    height: 70px;
+  }
+  
+  .ojs .bg {
+    position: absolute;
+    width: 1170px;
+    height: 70px;
+    top: 0;
+    left: 9px;
+  }
+  
+  .ojs .rectangle {
+    position: relative;
+    width: 1172px;
+    height: 72px;
+    top: -1px;
+    left: -1px;
+    background-color: #e3eeff;
+    border-radius: 8px;
+    box-shadow: 0px -10px 20px #00356d0f;
+  }
+  
+  .ojs .menu {
+    position: absolute;
+    width: 1153px;
+    height: 27px;
+    top: 22px;
+    left: 0;
+  }
+  
+  .ojs .div {
+    position: relative;
+    width: 1151px;
+    height: 27px;
+  }
+  
+  .ojs .home-insurance-pages {
+    position: absolute;
+    width: 1151px;
+    top: -14px;
+    left: 39px;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: normal;
+  }
+  
+  .ojs .text-wrapper {
+    font-weight: 600;
+  }
+  
+  .ojs .span {
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+  }
+  
+  .ojs .path {
+    left: 575px;
+    position: absolute;
+    width: 12px;
+    height: 7px;
+    top: 11px;
+  }
+  
+  .ojs .img {
+    left: 812px;
+    position: absolute;
+    width: 12px;
+    height: 7px;
+    top: 11px;
+  }
+  
+  .ojs .logo {
+    position: absolute;
+    width: 190px;
+    height: 41px;
+    top: 0;
+    left: 39px;
+    object-fit: cover;
+  }
+  
+  .ojs .button {
+    position: absolute;
+    width: 177px;
+    height: 53px;
+    top: 0;
+    left: 985px;
+    background-image: url(./img/rectangle.svg);
+    background-size: 100% 100%;
+    all: unset;
+    box-sizing: border-box;
+  }
+  
+  .ojs .overlap-2 {
+    position: relative;
+    width: 144px;
+    height: 23px;
+    top: 12px;
+    left: 14px;
+  }
+  
+  .ojs .get-a-quote {
+    position: absolute;
+    width: 144px;
+    top: 0;
+    left: 0;
+    font-family: "Circular-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .ojs .group {
+    position: absolute;
+    width: 8px;
+    height: 11px;
+    top: 7px;
+    left: 130px;
+  }
+  .button {
+    width: 177px;
+    height: 53px;
+    all: unset;
+    box-sizing: border-box;
+  }
+  
+  .button .component {
+    height: 53px;
+    background-image: url(./images/Rectangle.svg);
+    background-size: 100% 100%;
+    margin-left: 994px;
+    margin-top: 10px;
+  }
+  
+  .button .overlap-group {
+    position: relative;
+    width: 144px;
+    height: 23px;
+    top: 11px;
+    left: 14px;
+  }
+  
+  .button .get-a-quote {
+    position: absolute;
+    width: 144px;
+    top: 4px;
+    left: -16px;
+    font-family: "Circular-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .button .group {
+    position: absolute;
+    width: 8px;
+    height: 11px;
+    top: 8px;
+    left: 130px;
+  }
+  
+  
