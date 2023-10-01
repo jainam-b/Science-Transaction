@@ -8,8 +8,8 @@
   
   .ojs .overlap-wrapper {
     background-color: #ffffff;
-    width: 1440px;
-    height: 3432px;
+    width: 100%;
+    height: 100%;
   }
   
   .ojs .overlap {
@@ -173,7 +173,7 @@
   
   .button .component {
     height: 53px;
-    background-image: url(./images/Rectangle.svg);
+    background-image: url(./images/Rectangle.png);
     background-size: 100% 100%;
     margin-left: 994px;
     margin-top: 10px;
@@ -181,7 +181,7 @@
   
   .button .overlap-group {
     position: relative;
-    width: 144px;
+    width: 138px;
     height: 23px;
     top: 11px;
     left: 14px;
@@ -190,8 +190,8 @@
   .button .get-a-quote {
     position: absolute;
     width: 144px;
-    top: 4px;
-    left: -16px;
+    top: -103px;
+    left: -94px;
     font-family: "Circular-Medium", Helvetica;
     font-weight: 500;
     color: #ffffff;
@@ -205,8 +205,124 @@
     position: absolute;
     width: 8px;
     height: 11px;
-    top: 8px;
-    left: 130px;
+    top: -98px;
+    left: 21px;
+  }
+  .component {
+    width: 144px;
+    height: 924px;
+    background-color: #ffffff;
   }
   
+  .component .overlap-group {
+    position: relative;
+    /* width: 1258px; */
+    height: 368px;
+    top: 119px;
+    left: 93px;
+  }
+  
+  .component .hero-title {
+    position: absolute;
+    width: 1258px;
+    height: 368px;
+    top: 0;
+    left: 0;
+  }
+  
+  .component .share-your-research {
+    /* position: absolute;
+    width: 1254px;
+    top: -45px;
+    left: 0;
+    font-family: "Playfair Display-Bold", Helvetica;
+    font-weight: 700;
+    color: #094b72;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 1.2px;
+    line-height: 72px;
+    padding: 19px 93px 0px 93px; */
+    width: 1254px; 
+    text-align: center; 
+    color: #094B72; 
+    font-size: 60px;
+     font-family: Playfair Display; 
+     font-weight: 700; 
+     line-height: 72px; 
+     letter-spacing: 1.20px; 
+     word-wrap: break-word;
+     margin: 21px;
+     
+  }
+  
+  .component .text-wrapper {
+    position: absolute;
+    width: 830px;
+    height: 88px;
+    top: 241px;
+    left: 212px;
+    font-family: "Plus Jakarta Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--neutral-grey-6);
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    line-height: 37.9px;
+  }
+  
+  .component .frame {
+    display: flex;
+    width: 691px;
+    height: 87px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 168px;
+    left: 298px;
+  }
+  
+  .component .form-control {
+    position: relative;
+    width: 601px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 5px 0px 0px 5px;
+    overflow: hidden;
+    border: 3px solid;
+    border-color: #094b72;
+  }
+  
+  .component .div {
+    position: absolute;
+    height: 18px;
+    top: 15px;
+    left: 13px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--text-muted);
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .component .btn-primary-lg {
+    position: relative;
+    flex: 0 0 auto;
+    height: 50px;
+  }
+
+.btn-primary-lg{
+display : inline-flex;
+height : 50px;
+align-items: center;
+ 
+gap: 10px;
+padding: 2px 16px;
+position : relative;
+background-color: #094b72;
+border-radius : 0px 5px 5px 0px;
+/* overflow: hidden;*/ } 
+    
   
