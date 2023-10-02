@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-playfair-display: "Playfair Display";
+    --font-poppins: Poppins;
+  
+    /* font sizes */
+    --font-size-sm: 14px;
+    --font-size-base: 16px;
+  
+    /* Colors */
+    --neutral-grey-1: #f9f8f9;
+    --color-steelblue: #094b72;
+    --color-lightslategray: #8989a2;
+    --color-midnightblue: #160637;
+  
+    /* Gaps */
+    --gap-base: 16px;
+  
+    /* Border radiuses */
+    --br-42xl: 61px;
+  }
+  
