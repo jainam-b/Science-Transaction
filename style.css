@@ -554,7 +554,7 @@ border-radius : 0px 5px 5px 0px;
     position: absolute;
     height: 85.3vh;
     width: 100vw;
-    top: 8.21%;
+    top: 3.79%;
     right: 0;
     bottom: 6.48%;
     left: 0;
@@ -585,4 +585,317 @@ border-radius : 0px 5px 5px 0px;
   
 /* Why ojs ends */
     
+/*Counts starts  */
+
+ 
+.bg,
+.bg-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.bg-child {
+  background-color: #094b72;
+  width: 1536px;
+  height: 376px;
+}
+.bg {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+.label,
+.number {
+  position: relative;
+  display: inline-block;
+  width: 255px;
+}
+.number {
+  line-height: 64px;
+  font-weight: 800;
+}
+.label {
+  font-size: var(--font-size-lg);
+  line-height: 32px;
+  color: inherit;
+  text-decoration: none;
+}
+.details {
+  overflow: hidden;
+}
+.details,
+.div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.divider {
+  position: relative;
+  border-right: 1px solid var(--default-white);
+  box-sizing: border-box;
+  width: 1px;
+  height: 97px;
+  opacity: 0.4;
+}
+.label1 {
+  letter-spacing: 0.3px;
+}
+.label1,
+.label2 {
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 32px;
+  display: inline-block;
+  width: 255px;
+}
+.counts {
+  position: absolute;
+  height: 32.44%;
+  width: 57.29%;
+  top: 54.85%;
+  right: 21.35%;
+  bottom: 12.71%;
+  left: 21.35%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 15px;
+}
+.section-title {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 64px;
+  font-weight: 900;
+  display: inline-block;
+  width: 730px;
+}
+.section-heading1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.description {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.5px;
+  line-height: 32px;
+  font-family: var(--font-poppins);
+}
+.section-heading {
+  position: absolute;
+  height: 35.14%;
+  width: 50.69%;
+  top: 11.92%;
+  right: 24.65%;
+  bottom: 52.93%;
+  left: 24.65%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+  font-family: var(--font-playfair-display);
+}
+.achievement,
+.libraryoutline {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.libraryoutline {
+  height: 8.11%;
+  width: 1.67%;
+  top: 29.4%;
+  right: 87.36%;
+  bottom: 62.49%;
+  left: 10.97%;
+  overflow: hidden;
+}
+.component-5 {
+  position: relative;
+  width: 100%;
+  height: 295.93px;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--default-white);
+  font-family: var(--font-poppins);
+  top: -2681px;
+}
+
+  /*Counts ends  */
+
+  /* Library starts */
+  .bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #f2f7ff;
+  }
+  .quote-mark-icon {
+    position: absolute;
+    height: 24.43%;
+    width: 12.22%;
+    top: 7.87%;
+    right: 6.67%;
+    bottom: 67.7%;
+    left: 81.11%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    opacity: 0.2;
+  }
+  .slider-controls-2-child,
+  .slider-controls-2-item {
+    position: relative;
+    border-radius: 50%;
+    box-sizing: border-box;
+    width: 10px;
+    height: 10px;
+  }
+  .slider-controls-2-child {
+    background-color: var(--default-white);
+    border: 1px solid var(--default-white);
+  }
+  .slider-controls-2-item {
+    border: 2px solid var(--default-white);
+    opacity: 0.5;
+  }
+  .slider-controls-2 {
+    position: absolute;
+    height: 1.64%;
+    width: 3.75%;
+    top: 56.23%;
+    right: 48.13%;
+    bottom: 42.13%;
+    left: 48.13%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+  }
+  .section-headings {
+    position: absolute;
+    height: 10.49%;
+    width: 32.64%;
+    top: 13.11%;
+    right: 55.9%;
+    bottom: 76.39%;
+    left: 11.46%;
+    overflow: hidden;
+  }
+  .section-titles {
+    position: absolute;
+    height: 10.49%;
+    width: 50.35%;
+    top: 10%;
+    left: 24.79%;
+    letter-spacing: 0.5px;
+    line-height: 64px;
+    display: inline-block;
+  }
+  .testimonial-section {
+    position: absolute;
+    height: 112.07%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: -12.07%;
+    left: 0;
+    font-size: 48px;
+    color: var(--neutral-grey-7);
+    font-family: var(--font-playfair-display);
+  }
+  .imagefigma-1-icon {
+    align-self: stretch;
+    position: relative;
+    border-radius: var(--br-5xl);
+    max-width: 100%;
+    overflow: hidden;
+    height: 382px;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .international-studies-of {
+    align-self: stretch;
+    position: relative;
+    line-height: 32px;
+    font-weight: 500;
+  }
+  .nama-rumah-harga {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-div,
+  .imagefigma-1-container,
+  .imagefigma-1-group,
+  .imagefigma-1-parent {
+    position: absolute;
+    height: 68.04%;
+    width: 23.61%;
+    top: 31.96%;
+    right: 70.42%;
+    bottom: 0;
+    left: 5.97%;
+    border-radius: var(--br-11xs);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-5xl);
+  }
+  .frame-div,
+  .imagefigma-1-container,
+  .imagefigma-1-group {
+    top: 30.94%;
+    right: 48.13%;
+    bottom: 1.03%;
+    left: 28.26%;
+  }
+  .frame-div,
+  .imagefigma-1-container {
+    top: 30.68%;
+    right: 26.04%;
+    bottom: 1.28%;
+    left: 50.35%;
+  }
+  .frame-div {
+    top: 29.78%;
+    right: 4.93%;
+    bottom: 2.18%;
+    left: 71.46%;
+  }
+  .component-2 {
+    position: relative;
+    width: 100%;
+    height: 779px;
+    text-align: center;
+    font-size: var(--font-size-5xl);
+    color: var(--neutral-900);
+    font-family: var(--font-lexend);
+    top: -2676px;
+  }
   
+  /* Library ends */

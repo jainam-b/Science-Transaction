@@ -23,5 +23,37 @@ body {
   
     /* Border radiuses */
     --br-42xl: 61px;
+    /* fonts */
+      --font-poppins: Poppins;
+      --font-playfair-display: "Playfair Display";
+    
+      /* font sizes */
+      --font-size-lg: 15px;
+      --font-size-29xl: 48px;
+    
+      /* Colors */
+      --default-white: #fff;
+
+      
+      /* library */
+      --font-lexend: Lexend;
+      --font-playfair-display: "Playfair Display";
+    
+      /* font sizes */
+      --font-size-5xl: 24px;
+    
+      /* Colors */
+      --neutral-900: #0e1735;
+      --neutral-grey-7: #2d2f30;
+      --default-white: #fff;
+    
+      /* Gaps */
+      --gap-5xl: 24px;
+    
+      /* Border radiuses */
+      --br-11xs: 2px;
+      --br-5xl: 24px;
   }
+   
+
   
