@@ -4,6 +4,7 @@
     flex-direction: row;
     justify-content: center;
     width: 100%;
+    height: 170px;
   }
   
   .ojs .overlap-wrapper {
@@ -229,7 +230,7 @@
     width: 1258px;
     height: 368px;
     top: 0;
-    left: 0;
+    left: 13px;
   }
   
   .component .share-your-research {
@@ -281,7 +282,7 @@
     justify-content: center;
     position: absolute;
     top: 168px;
-    left: 298px;
+    left: 315px;
   }
   
   .component .form-control {
@@ -391,7 +392,7 @@ border-radius : 0px 5px 5px 0px;
     position: relative;
     line-height: 24px;
     display: inline-block;
-    width: 307px;
+    /* width: 307px; */
   }
   .we-are-the {
     font-weight: 500;
@@ -552,7 +553,7 @@ border-radius : 0px 5px 5px 0px;
   }
   .why-qubly {
     position: absolute;
-    height: 85.3vh;
+    height: 500px;
     width: 100vw;
     top: 3.79%;
     right: 0;
@@ -563,10 +564,10 @@ border-radius : 0px 5px 5px 0px;
   }
   .component-1 {
     position: absolute;
-    top: 1097px;
+    top: 635px;
     left: -3px;
     width: 1443px;
-    height: 694px;
+     
   }
   .ojss {
     position: relative;
@@ -587,7 +588,6 @@ border-radius : 0px 5px 5px 0px;
     
 /*Counts starts  */
 
- 
 .bg,
 .bg-child {
   position: absolute;
@@ -596,7 +596,7 @@ border-radius : 0px 5px 5px 0px;
 }
 .bg-child {
   background-color: #094b72;
-  width: 1536px;
+  width: 1540px;
   height: 376px;
 }
 .bg {
@@ -654,11 +654,9 @@ border-radius : 0px 5px 5px 0px;
 .counts {
   position: absolute;
   height: 32.44%;
-  width: 57.29%;
   top: 54.85%;
-  right: 21.35%;
   bottom: 12.71%;
-  left: 21.35%;
+  left: calc(50% - 412.5px);
   overflow: hidden;
   display: flex;
   flex-direction: row;
@@ -691,11 +689,9 @@ border-radius : 0px 5px 5px 0px;
 }
 .section-heading {
   position: absolute;
-  height: 35.14%;
   width: 50.69%;
-  top: 11.92%;
+  top: calc(50% - 112.68px);
   right: 24.65%;
-  bottom: 52.93%;
   left: 24.65%;
   overflow: hidden;
   display: flex;
@@ -710,10 +706,10 @@ border-radius : 0px 5px 5px 0px;
   position: absolute;
   height: 100%;
   width: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  top: -11.15%;
+  right: 0.83%;
+  bottom: 11.15%;
+  left: -0.83%;
 }
 .libraryoutline {
   height: 8.11%;
@@ -732,7 +728,7 @@ border-radius : 0px 5px 5px 0px;
   font-size: var(--font-size-29xl);
   color: var(--default-white);
   font-family: var(--font-poppins);
-  top: -2681px;
+  top: 570px;
 }
 
   /*Counts ends  */
@@ -747,19 +743,6 @@ border-radius : 0px 5px 5px 0px;
     bottom: 0;
     left: 0;
     background-color: #f2f7ff;
-  }
-  .quote-mark-icon {
-    position: absolute;
-    height: 24.43%;
-    width: 12.22%;
-    top: 7.87%;
-    right: 6.67%;
-    bottom: 67.7%;
-    left: 81.11%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-    opacity: 0.2;
   }
   .slider-controls-2-child,
   .slider-controls-2-item {
@@ -895,8 +878,9 @@ border-radius : 0px 5px 5px 0px;
     font-size: var(--font-size-5xl);
     color: var(--neutral-900);
     font-family: var(--font-lexend);
-    top: -2676px;
+    top: 556px;
   }
+  
   
   /* Library ends */
   .bg-icon {
@@ -1076,10 +1060,211 @@ border-radius : 0px 5px 5px 0px;
   .bg-parent {
     position: relative;
     width: 100%;
-    height: 501.93px;
+    height: 480px;
     text-align: left;
     font-size: var(--heading-h6-size);
     color: var(--text-gray-100);
     font-family: var(--body-body-1);
   }
   
+/* Footer starts */
+.bg-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  background-color: #094B72;
+}
+.researchers {
+  position: relative;
+  line-height: 30px;
+  font-weight: 500;
+}
+.researchers,
+.visit-author-hub {
+  display: inline-block;
+  width: 160px;
+}
+.visit-author-hub,
+.visit-reviewer-hub {
+  position: relative;
+  line-height: 26px;
+}
+.col-1,
+.col-2,
+.features,
+.list-items {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.col-1,
+.col-2,
+.list-items {
+  flex-direction: column;
+}
+.list-items {
+  gap: var(--gap-xs);
+  font-size: var(--body-body-1-size);
+  color: var(--text-gray-200);
+}
+.col-1,
+.col-2 {
+  width: 177px;
+  flex-shrink: 0;
+  gap: var(--gap-13xl);
+}
+.col-2 {
+  width: 129px;
+}
+.about-sci-trans {
+  position: relative;
+  line-height: 30px;
+  font-weight: 500;
+  display: inline-block;
+  width: 188px;
+}
+.icon-11- {
+  position: absolute;
+  top: 4px;
+  left: 17px;
+  width: 9px;
+  height: 17.1px;
+}
+.facebook {
+  position: relative;
+  width: 160px;
+  height: 26px;
+}
+.x30-4twitter-icon {
+  position: absolute;
+  top: 3.41px;
+  left: 14px;
+  width: 19px;
+  height: 15.2px;
+}
+.twitter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 26px;
+  display: inline-block;
+  width: 160px;
+}
+.google-plus-icon,
+.linkedin-3-icon {
+  position: absolute;
+  top: 3.5px;
+  left: 14px;
+  width: 18px;
+  height: 18px;
+  mix-blend-mode: normal;
+}
+.google-plus-icon {
+  width: 26px;
+  height: 15.79px;
+}
+.list-items2 {
+  flex-direction: column;
+  gap: var(--gap-xs);
+  text-align: center;
+  font-size: var(--body-body-1-size);
+  color: var(--text-gray-200);
+}
+.col-5,
+.links,
+.list-items2 {
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.col-5 {
+  flex-direction: column;
+  gap: var(--gap-13xl);
+}
+.links {
+  position: absolute;
+  height: 100%;
+  width: 77.43%;
+  top: 0;
+  right: 22.57%;
+  bottom: 0;
+  left: 0;
+  flex-direction: row;
+  gap: 17px;
+}
+.terms {
+  position: relative;
+  line-height: 26px;
+  color: inherit;
+  display: inline-block;
+  width: 160px;
+  text-decoration: none;
+}
+.col-3 {
+  position: absolute;
+  height: 81.19%;
+  width: 22.57%;
+  top: 0.5%;
+  right: 0;
+  bottom: 18.32%;
+  left: 77.43%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.links-parent {
+  position: absolute;
+  height: 40.24%;
+  width: 49%;
+  top: 20.32%;
+  right: 10.02%;
+  bottom: 39.43%;
+  left: 40.98%;
+}
+.bg-parent,
+.logo15-2-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.logo15-2-icon {
+  height: 10.16%;
+  width: 16.31%;
+  top: 20.32%;
+  right: 75.39%;
+  bottom: 69.52%;
+  left: 8.29%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.component-6 {
+  position: relative;
+  width: 100%;
+  height: 501.93px;
+  text-align: left;
+  font-size: var(--heading-h6-size);
+  color: var(--text-gray-100);
+  font-family: var(--body-body-1);
+  top: 572px;
+}
+
+/* Footer ends */

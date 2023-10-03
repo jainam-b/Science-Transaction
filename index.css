@@ -5,17 +5,22 @@ body {
 
 :root {
   /* fonts */
-  --body-body-1: Inter;
+  --font-playfair-display: "Playfair Display";
+  --font-poppins: Poppins;
 
   /* font sizes */
-  --body-body-1-size: 16px;
-  --heading-h6-size: 20px;
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
 
   /* Colors */
-  --text-gray-100: #f4f5f7;
-  --text-gray-200: #eeeff4;
+  --neutral-grey-1: #f9f8f9;
+  --color-steelblue: #094b72;
+  --color-lightslategray: #8989a2;
+  --color-midnightblue: #160637;
 
   /* Gaps */
-  --gap-13xl: 32px;
-  --gap-xs: 12px;
+  --gap-base: 16px;
+
+  /* Border radiuses */
+  --br-42xl: 61px;
 }

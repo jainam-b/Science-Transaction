@@ -1,0 +1,141 @@
+.bg,
+.bg-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.bg-child {
+  background-color: #094b72;
+  width: 1540px;
+  height: 376px;
+}
+.bg {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+.label,
+.number {
+  position: relative;
+  display: inline-block;
+  width: 255px;
+}
+.number {
+  line-height: 64px;
+  font-weight: 800;
+}
+.label {
+  font-size: var(--font-size-lg);
+  line-height: 32px;
+  color: inherit;
+  text-decoration: none;
+}
+.details {
+  overflow: hidden;
+}
+.details,
+.div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.divider {
+  position: relative;
+  border-right: 1px solid var(--default-white);
+  box-sizing: border-box;
+  width: 1px;
+  height: 97px;
+  opacity: 0.4;
+}
+.label1 {
+  letter-spacing: 0.3px;
+}
+.label1,
+.label2 {
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 32px;
+  display: inline-block;
+  width: 255px;
+}
+.counts {
+  position: absolute;
+  height: 32.44%;
+  top: 54.85%;
+  bottom: 12.71%;
+  left: calc(50% - 412.5px);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 15px;
+}
+.section-title {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 64px;
+  font-weight: 900;
+  display: inline-block;
+  width: 730px;
+}
+.section-heading1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.description {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.5px;
+  line-height: 32px;
+  font-family: var(--font-poppins);
+}
+.section-heading {
+  position: absolute;
+  width: 50.69%;
+  top: calc(50% - 112.68px);
+  right: 24.65%;
+  left: 24.65%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+  font-family: var(--font-playfair-display);
+}
+.achievement,
+.libraryoutline {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: -11.15%;
+  right: 0.83%;
+  bottom: 11.15%;
+  left: -0.83%;
+}
+.libraryoutline {
+  height: 8.11%;
+  width: 1.67%;
+  top: 29.4%;
+  right: 87.36%;
+  bottom: 62.49%;
+  left: 10.97%;
+  overflow: hidden;
+}
+.component-5 {
+  position: relative;
+  width: 100%;
+  height: 295.93px;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--default-white);
+  font-family: var(--font-poppins);
+}
